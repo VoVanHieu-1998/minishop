@@ -1,0 +1,148 @@
+html,body{
+	font-family: Roboto !important;
+	width: 100%;
+	height: 100%;
+background: white	;
+}
+#header{
+	background-color: #111111;
+	box-shadow: 0px 2px 5px #888888;
+}
+.none-nav{
+	background: none !important;
+	border: none !important;
+}
+.navbar-center{
+	margin-left: 35% !important;
+}
+.navbar-nav a{
+	color: white !important;
+}
+.navbar-nav a:hover{
+	color: #FF3333 !important;
+}
+.active > a {
+	color: #CCFFFF !important;
+	background: none ;
+	font-weight: bold;
+}
+
+.dropdown a:hover{
+	color: #CC6699 !important;
+}
+.dropdown-menu a {
+	color: #0167ff !important;
+	background: none ;
+	font-weight: bold;
+}
+.navbar-right-login{
+	margin-right: 25px !important;
+}
+.navbar-right-register{
+	margin-right: 25px !important;
+}
+
+#anhchinh{
+	max-width: 100% !important;
+}
+
+
+a.circle-avatar:hover{
+	width: 32px !important; 
+	height: 32px !important; 
+	border-radius: 16px !important; 
+	background-color: chocolate !important; 
+	text-align: center !important; 
+	padding: 6px !important; 
+	margin-top: 10px !important; 
+	margin-bottom: 15px !important;
+}
+ul {
+	list-style-type: none;
+}
+.mymenu{
+	padding: 0px;
+	margin: 0px;
+	
+}
+.mymenu li{
+	font-size: 16px;
+	font-weight: 400;
+	padding: 4px 0px;
+}
+
+#footer{
+	
+	margin-top:42px;
+	color: white;
+	background-color: #555555 ;
+	padding: 38px;
+}
+#footer p{
+	text-align:center;
+}
+#footer .footer-email{
+	height: 38px;
+	border: 0;
+	background-color: #D8D8D8;
+	width: 100%;
+	margin-bottom: 8px;
+}
+#footer .footer-noidung{
+	border: 0;
+	background-color: #D8D8D8;
+	width: 100%;
+	margin-bottom: 8px;
+}
+#footer .footer-submit{
+	height: 38px;
+	border: 0;
+	background-color: #00909C;
+	width: 100%;
+	box-shadow: 0px 2px 4px 0px #000;
+}
+.title-footer{
+	font-size: 32px;
+	
+}
+
+
+
+
+
+
+
+
+@media (max-width: 992px){
+	.navbar-center{
+	margin-left: 8% !important;
+}
+.navbar-right{
+		margin-left: 0 !important;
+}
+	
+}
+@media (max-width: 767px){
+	.navbar-center{
+	margin-left: 0 !important;
+}
+.navbar-right{
+		margin-left: 0 !important;
+}
+	
+}
+
+
+@media (max-width: 575px){
+	.navbar-center{
+	margin-left: 0 !important;
+}
+.navbar-right{
+		margin-left: 0 !important;
+}
+	
+}
+
+
+
+

@@ -1,0 +1,142 @@
+@CHARSET "UTF-8";
+html,body{
+	font-family: Roboto;
+	width: 100%;
+	height: 100%;
+}
+#body-login{
+	background-color: #00909C;
+}
+/* start login */
+#body-flex-login{
+	
+	display: flex;
+	height:100%;
+	justify-content: center;
+	align-items: center;
+}
+#container-login{
+	display: flex;
+	width: 750px;
+	height: 549px;
+	background-color: white;
+}
+#container-login-left{
+	display: flex;
+	flex-direction :column;
+	justify-content: space-between;
+	width: 334px;
+	height: 549px;
+	background-image: url("../img/nn.jpg");
+}
+#container-login-left p{
+	text-align: center;
+	color: #FF9900;
+	opacity: 0.8;
+}
+#header-left{
+	text-align: center;
+	color: #8F006D;
+}
+.header-login{
+	margin-top: 20px;
+}
+#text-logo{
+	font-size: 40px;
+}
+#hint-text-logo{
+	font-size: 12px;
+	opacity: 0.7;
+}
+#container-login-right{
+	display: flex;
+	flex:1;
+	flex-direction :column;
+	justify-content: space-between;
+	padding: 0 24px;
+}
+#header-top-right{
+	font-size: 20px;
+	color: #878787;
+}
+.actived{
+	color: #DA7C79;
+}
+#container-social-login{
+	align-self: flex-end;
+	margin-bottom: 20px;
+}
+#container-center-login-right input[type=text]{
+	margin-top: 8px;
+	font-size: 16px;
+}
+#container-center-login-right input[type=password]{
+	margin-top: 8px;
+	font-size: 16px;
+}
+#container-center-login-right input[type=submit]{
+	margin-top: 24px;
+	color: white;
+	font-size: 14px;
+}
+
+.meterial-textinput{
+	height: 38px;
+	border: 0;
+	background-color: #D8D8D8;
+	width: 100%;
+}
+.meterial-primary-button{
+	height: 38px;
+	border: 0;
+	background-color: #00909C;
+	width: 100%;
+	box-shadow: 0px 2px 4px 0px #000;
+}
+.input-icon-email{
+	background: url(../img/email.png) no-repeat scroll 7px 7px;
+	height: 38px;
+	border: 0;
+	background-color: #D8D8D8;
+	width: 90%;
+	padding-left: 40px;
+}
+.input-icon-pass{
+	background: url(../img/pass.png) no-repeat scroll 7px 7px;
+	height: 38px;
+	border: 0;
+	background-color: #D8D8D8;
+	width: 90%;
+	padding-left: 40px;
+}
+.container-signup-form{
+	display: none;
+}
+
+/* end login */
+/* start header */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* end header */
